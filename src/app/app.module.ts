@@ -16,7 +16,7 @@ import { NbThemeModule, NbLayoutModule, NbSidebarModule } from '@nebular/theme';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NbThemeModule.forRoot({ name: 'cosmic' }),
+    NbThemeModule.forRoot({ name: 'corporate' }),
     NbLayoutModule,
     NbSidebarModule.forRoot()
   ],
