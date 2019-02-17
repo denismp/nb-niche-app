@@ -1,0 +1,13 @@
+/*
+** This file is needed for hot theme changes.
+*/
+
+@import '../themes';
+
+@include nb-install-component() {
+    background: nb-theme(card-bg);
+    .container {
+        background: nb-theme(color-bg);
+        font-weight: nb-theme(font-weight-bold);
+    }
+}
